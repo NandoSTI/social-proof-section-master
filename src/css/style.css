@@ -1,0 +1,54 @@
+:root {
+    --clr-primary-100: hsl(300, 43%, 22%);
+    --clr-primary-200: hsl(333, 80%, 67%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(300, 24%, 96%);
+    --clr-neutral-300: hsl(303, 10%, 53%);
+    
+    --ff-default: 'Lexend Deca', sans-serif;
+    --ff-title: 'Big Shoulders Display', cursive;
+    
+    --fs-0: .75rem;
+    --fs-1: .9375rem;
+    --fs-2: 2.125rem;
+    
+    --fw-400: 400;
+    --fw-700: 700;
+    
+    --b-radius: 1rem;
+    
+    --space-element: 1.6rem;
+    --space-btn: 6rem;
+    --space-paragraph: 0 3rem 0 0;
+    
+    --padding-card: 2.8125rem;
+    --padding-btn: .6rem 1.5rem;
+    
+    --margin-mobile: 6rem 1rem;
+    
+    
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+      html, body {
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+        img, svg {
+        display: block;
+        max-width: 100%;
+      }
+       button {
+        font: inherit;
+      }
+      p, h1 {
+        overflow-wrap: break-word;
+      }
