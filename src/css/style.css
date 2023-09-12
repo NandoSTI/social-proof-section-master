@@ -8,8 +8,10 @@
     --ff-default: 'League Spartan', sans-serif;
     
     --fs-0: .75rem;
-    --fs-1: .9375rem;
+    --fs-1: .8rem;
     --fs-2: 2.2rem;
+    --fs-3: 3.125rem;
+    --fs-4: 1.1rem;
     
     --fw-400: 400;
     --fw-500: 500;
@@ -21,6 +23,7 @@
     --space-element: 1rem;
     --padd-title: 0 2.5rem;
     --margin-mobile: 6rem 1.5rem;
+    --margin-desktop: 6.2rem 10.375rem;
     
     }
     
@@ -126,5 +129,49 @@
         font-size: var(--fs-1);
         font-weight: var(--fw-700);
         color: var(--clr-primary-100);
+      }
+
+      @media(min-width: 750px) {
+
+        .container {
+            margin: var(--margin-desktop);
+        }
+        .container .rated {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .container .rated .rated_title {
+            width: 50%;
+            text-align: start;
+        }
+
+        .container .rated_title {
+            
+        }
+
+        .container .rated_title h1 {
+            padding: 0;
+            font-size: var(--fs-3);
+        }
+
+        .container .rated_title p {
+            font-size: var(--fs-4);
+        }
+
+        .container .testimonials {
+            display: flex;
+            margin-top: var(--space-element);
+            gap: 2rem;
+        }
+
+        .container .rated .reviews-stars .reviews {
+            width: 27.875rem;
+            height: 3.5rem;
+        }
+
+        .container .rated .reviews-stars .reviews .stars {
+            margin-bottom: 0;
+        }
       }
 
