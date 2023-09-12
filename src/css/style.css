@@ -5,27 +5,21 @@
     --clr-neutral-200: hsl(300, 24%, 96%);
     --clr-neutral-300: hsl(303, 10%, 53%);
     
-    --ff-default: 'Lexend Deca', sans-serif;
-    --ff-title: 'Big Shoulders Display', cursive;
+    --ff-default: 'League Spartan', sans-serif;
     
     --fs-0: .75rem;
     --fs-1: .9375rem;
     --fs-2: 2.125rem;
     
     --fw-400: 400;
+    --fw-400: 500;
     --fw-700: 700;
     
-    --b-radius: 1rem;
+    --border-radius: 1rem;
     
-    --space-element: 1.6rem;
-    --space-btn: 6rem;
-    --space-paragraph: 0 3rem 0 0;
-    
-    --padding-card: 2.8125rem;
-    --padding-btn: .6rem 1.5rem;
-    
+    --spc-element: 1rem;
+    --pad-card: 2.8125rem;
     --margin-mobile: 6rem 1rem;
-    
     
     }
     
