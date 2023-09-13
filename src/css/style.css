@@ -56,6 +56,7 @@
         background-color: var(--clr-neutral-100);
         font-family: var(--ff-default);
         color: var(--clr-primary-200);
+        background: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg) no-repeat center;
       }
 
       .container {
@@ -216,5 +217,16 @@
           height: 12rem;
         }
 
+      }
+
+      @media(min-width: 1440px) {
+        .containert {
+          margin: 0 auto;
+        }
+
+        .container .testimonials .testimonial:nth-child(2){
+        
+          
+        }
       }
 
