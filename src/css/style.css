@@ -132,10 +132,10 @@
         color: var(--clr-primary-100);
       }
 
-      @media(min-width: 750px) {
+      @media(min-width: 1000px) {
 
         .container {
-            margin: var(--mg-teste);
+            margin: var(--margin-desktop);
         }
         .container .rated {
           display: flex;
