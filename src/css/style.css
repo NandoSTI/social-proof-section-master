@@ -56,7 +56,8 @@
         background-color: var(--clr-neutral-100);
         font-family: var(--ff-default);
         color: var(--clr-primary-200);
-        background: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg) no-repeat center;
+        background: url(../images/bg-pattern-top-mobile.svg);
+        background-size: 50%;
       }
 
       .container {
@@ -133,7 +134,12 @@
         color: var(--clr-primary-100);
       }
 
-      @media(min-width: 1200px) {
+      @media(min-width: 1000px) {
+        html {
+        background: url(../images/bg-pattern-top-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+      }
 
         .container {
             margin: var(--margin-desktop);
@@ -181,52 +187,30 @@
         }
 
         .container .rated .reviews-stars .reviews:nth-child(1) {
-          margin-right: 8rem;
+          transform: translateX(-4rem);
         }
         
         .container .rated .reviews-stars .reviews:nth-child(2) {
-          margin-left: 4rem;
+         transform: translateX(-1rem);
         }
 
         .container .rated .reviews-stars .reviews:nth-child(3) {
-          margin-left: 8rem;
+          transform: translateX(2rem);
         }
 
-        .container .testimonials {
-          position: relative;
+        .container .testimonials .testimonial:nth-child(2) {
+          transform: translateY(1rem);
         }
 
-        .container .testimonials .testimonial:nth-child(1){
-          position: absolute;
-          width: 20rem;
+        .container .testimonials .testimonial:nth-child(3) {
+          transform: translateY(2rem);
         }
 
-        .container .testimonials .testimonial:nth-child(2){
-          position: absolute;
-          left: 34%;
-          bottom: -230px;
-          width: 20.5rem;
-          height: 12rem;
-        }
-
-        .container .testimonials .testimonial:nth-child(3){
-          position: absolute;
-          right: 0;
-          bottom: -250px;
-          width: 20.5rem;
-          height: 12rem;
-        }
-
-      }
 
       @media(min-width: 1440px) {
-        .containert {
-          margin: 0 auto;
+        .container {
+          margin: var(--margin-desktop);
         }
 
-        .container .testimonials .testimonial:nth-child(2){
-        
-          
-        }
       }
-
+    }
