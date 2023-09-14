@@ -139,7 +139,7 @@
         background-image: 
         url(../images/bg-pattern-top-desktop.svg),
         url(../images/bg-pattern-bottom-desktop.svg);
-        background-position: top left, bottom right;
+        background-position: top left, bottom -100px right;
         background-repeat: no-repeat;
         background-size: 50%;
       }
@@ -149,11 +149,11 @@
         }
         .container .rated {
           display: flex;
-          gap: 2rem;
+          gap: 12rem;
         }
 
         .container .rated .rated_title {
-            width: 50%;
+            width: 22rem;
             text-align: start;
         }
 
@@ -163,7 +163,7 @@
         }
 
         .container .rated_title p {
-            font-size: var(--fs-4);
+            font-size: .9rem;
         }
 
         .container .testimonials {
